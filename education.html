@@ -62,24 +62,98 @@
     <div class="BodyContent">
         <div class="card text-center">
             <div class="card-body">
-                <p>
-                    <img src="assets/img/picnicImg/img1.jpeg" class="d-block w-100 vh-100" alt="...">
-                </p>
-                <p>
-                    <img src="assets/img/picnicImg/img2.jpeg" class="d-block w-100 vh-100" alt="...">
-                </p>
-                <p>
-                    <img src="assets/img/picnicImg/img3.jpeg" class="d-block w-100 vh-100" alt="...">
-                </p>
-                <p>
-                    <img src="assets/img/picnicImg/img4.jpeg" class="d-block w-100 vh-100" alt="...">
-                </p>
-                <p>
-                    <img src="assets/img/picnicImg/img5.jpeg" class="d-block w-100 vh-100" alt="...">
-                </p>
-                <p>
-                    <img src="assets/img/picnicImg/img6.jpeg" class="d-block w-100 vh-100" alt="...">
-                </p>
+
+                <div class="button-group filter-button-group m-2">
+                    <button class="btn btn-outline-warning" data-filter="*">show all</button>
+                    <button class="btn btn-outline-warning active" data-filter=".yr2023">2023</button>
+                    <button class="btn btn-outline-warning" data-filter=".yr2022">2022</button>
+                </div>
+                <div class="grid">
+                    <div class="element-item yr2023 " data-category="yr2023">
+                        <div class="row">
+                            <p class="col-md-6">
+                                <img src="assets/img/educationImg/educationImg2023_1.jpeg" class="d-block w-100 vh-100"
+                                    alt="...">
+                            </p>
+                            <p class="col-md-6">
+                                <img src="assets/img/educationImg/educationImg2023_2.jpeg" class="d-block w-100 vh-100"
+                                    alt="...">
+                            </p>
+                            <p class="col-md-6">
+                                <img src="assets/img/educationImg/educationImg2023_3.jpeg" class="d-block w-100 vh-100"
+                                    alt="...">
+                            </p>
+                            <p class="col-md-6">
+                                <img src="assets/img/educationImg/educationImg2023_4.jpeg" class="d-block w-100 vh-100"
+                                    alt="...">
+                            </p>
+                            <p class="col-md-6">
+                                <img src="assets/img/educationImg/educationImg2023_5.jpeg" class="d-block w-100 vh-100"
+                                    alt="...">
+                            </p>
+                            <p class="col-md-6">
+                                <img src="assets/img/educationImg/educationImg2023_6.jpeg" class="d-block w-100 vh-100"
+                                    alt="...">
+                            </p>
+                            <p class="col-md-6">
+                                <img src="assets/img/educationImg/educationImg2023_7.jpeg" class="d-block w-100 vh-100"
+                                    alt="...">
+                            </p>
+                            <p class="col-md-6">
+                                <img src="assets/img/educationImg/educationImg2023_8.jpeg" class="d-block w-100 vh-100"
+                                    alt="...">
+                            </p>
+                            <p class="col-md-6">
+                                <img src="assets/img/educationImg/educationImg2023_9.jpeg" class="d-block w-100 vh-100"
+                                    alt="...">
+                            </p>
+                            <p class="col-md-6">
+                                <img src="assets/img/educationImg/educationImg2023_10.jpeg" class="d-block w-100 vh-100"
+                                    alt="...">
+                            </p>
+                            <p class="col-md-6">
+                                <img src="assets/img/educationImg/educationImg2023_11.jpeg" class="d-block w-100 vh-100"
+                                    alt="...">
+                            </p>
+                            <p class="col-md-6">
+                                <img src="assets/img/educationImg/educationImg2023_12.jpeg" class="d-block w-100 vh-100"
+                                    alt="...">
+                            </p>
+                            <p class="col-md-6">
+                                <img src="assets/img/educationImg/educationImg2023_13.jpeg" class="d-block w-100 vh-100"
+                                    alt="...">
+                            </p>
+                            <p class="col-md-6">
+                                <img src="assets/img/educationImg/educationImg2023_14.jpeg" class="d-block w-100 vh-100"
+                                    alt="...">
+                            </p>
+                        </div>
+                    </div>
+                    <div class="element-item yr2022 " data-category="yr2022">
+                        <div class="row">
+                            <p class="col-md-6">
+                                <img src="assets/img/educationImg/img1.jpeg" class="d-block w-100 vh-100" alt="...">
+                            </p>
+                            <p class="col-md-6">
+                                <img src="assets/img/educationImg/img2.jpeg" class="d-block w-100 vh-100" alt="...">
+                            </p>
+                            <p class="col-md-6">
+                                <img src="assets/img/educationImg/img3.jpeg" class="d-block w-100 vh-100" alt="...">
+                            </p>
+                            <p class="col-md-6">
+                                <img src="assets/img/educationImg/img4.jpeg" class="d-block w-100 vh-100" alt="...">
+                            </p>
+                            <p class="col-md-6">
+                                <img src="assets/img/educationImg/img5.jpeg" class="d-block w-100 vh-100" alt="...">
+                            </p>
+                            <p class="col-md-6">
+                                <img src="assets/img/educationImg/img6.jpeg" class="d-block w-100 vh-100" alt="...">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
         </div>
     </div>
@@ -162,6 +236,9 @@
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
         crossorigin="anonymous"></script>
     <script src="assets/fontawesome-free-6.4.0-web/js/all.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 
     <script>
         // Get the button:
@@ -183,6 +260,20 @@
             document.body.scrollTop = 0; // For Safari
             document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         }
+
+        // init Isotope
+        var $grid = $('.grid').isotope({
+            // options
+            filter: '.yr2023'
+        });
+        // filter items on button click
+        $('.filter-button-group').on('click', 'button', function () {
+            $('.filter-button-group>button').removeClass('active');
+            $(this).addClass('active');
+            var filterValue = $(this).attr('data-filter');
+            $grid.isotope({ filter: filterValue });
+        });
+
     </script>
 </body>
 
