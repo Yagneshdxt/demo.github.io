@@ -448,8 +448,13 @@
                   class="btn btn-primary"
                   id="installButton"
                 >
-                  Install App
+                  Install Mobile App
                 </button>
+                <div class="text-center">
+                    <h1>
+                    Shree Swami Samarth math Pradnyapuri
+                </h1>
+                </div>
             
           </div>
           <!-- <div class="modal-footer">
@@ -560,6 +565,17 @@
           });
         });
       });
+    
+      window.addEventListener('appinstalled', () => {
+        console.log('PWA installed successfully!');
+        // Hide the install button
+        document.getElementById('installButton').style.display = 'none';
+        $("#exampleModalCenter").modal("hide");
+        alert("Shree Swami Samartha math Pradnyapuri mobile app installed successfully");
+        window.close();
+      });
+
+
     </script>
   </body>
 </html>

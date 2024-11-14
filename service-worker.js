@@ -4,7 +4,7 @@ const urlsToCache = [
   '/index.html',
   '/assets/css/styles.css',
   '/assets/javascript/index.js',
- '/assets/img/*'
+ '/assets/img/'
 ];
 
 // Install Service Worker
