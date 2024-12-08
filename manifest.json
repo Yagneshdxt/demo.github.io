@@ -1,6 +1,6 @@
 {
   "name": "Shri Swami Samarth math Pradnyapuri",
-  "short_name": "Swami Samartha",
+  "short_name": "Pradnyapuri Trust",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -565,6 +565,22 @@
       "src": "assets/img/ios/1024.png",
       "sizes": "1024x1024",
       "type": "image/png"
+    }
+  ],
+  "id": "in.shreeswamisamarthmath.pradnyapuri",
+  "description": "Swami Samarth Pradnyapuri Trust Mobile App",
+  "dir": "ltr",
+  "scope": "https://shreeswamisamarthmathpradnyapuri.in",
+  "lang": "en",
+  "orientation": "any",
+  "display_override": [
+    "window-controls-overlay"
+  ],
+  "shortcuts": [
+    {
+      "name": "Donations",
+      "url": "https://shreeswamisamarthmathpradnyapuri.in/index.html#Donation",
+      "description": "Donations"
     }
   ]
 }
