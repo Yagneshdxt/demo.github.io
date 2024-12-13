@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "in.shreeswamisamarthmathpradnyapuri.www.twa",
+      "sha256_cert_fingerprints": [
+        "90:59:E6:3D:5F:14:82:F8:95:5B:C8:91:43:72:FA:E0:8E:C5:A4:DB:A0:A0:8D:2A:70:A5:6F:DD:EC:59:5E:00"
+      ]
+    }
+  }
+]
