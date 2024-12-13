@@ -1,7 +1,7 @@
 {
   "name": "Shri Swami Samarth math Pradnyapuri",
   "short_name": "Pradnyapuri Trust",
-  "start_url": "/index.html",
+  "start_url": "https://shreeswamisamarthmathpradnyapuri.in",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
@@ -573,14 +573,33 @@
   "scope": "https://shreeswamisamarthmathpradnyapuri.in",
   "lang": "en",
   "orientation": "any",
-  "display_override": [
-    "window-controls-overlay"
-  ],
+  "display_override": ["window-controls-overlay"],
+  "handle_links": "preferred",
   "shortcuts": [
     {
       "name": "Donations",
       "url": "https://shreeswamisamarthmathpradnyapuri.in/index.html#Donation",
       "description": "Donations"
     }
-  ]
+  ],
+  "screenshots": [
+    {
+      "src": "assets/img/Screenshot_20241209-132350.png",
+      "sizes": "1280x720",
+      "type": "image/jpg",
+      "platform": "wide"
+    },
+    {
+      "src": "assets/img/Screenshot_20241209-132505.png",
+      "sizes": "1280x720",
+      "type": "image/jpg",
+      "platform": "wide"
+    }
+  ],
+  "launch_handler": {
+    "client_mode": ["navigate-existing", "auto"]
+  },
+  "categories": ["social"],
+  "prefer_related_applications": false,
+  "scope_extensions": [{ "origin": "*.shreeswamisamarthmathpradnyapuri.in" }]
 }

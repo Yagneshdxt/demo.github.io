@@ -5,3 +5,4 @@ yarn.lock
 node_modules/.yarn-integrity
 localhost-key.pem
 localhost.pem
+.DS_Store
