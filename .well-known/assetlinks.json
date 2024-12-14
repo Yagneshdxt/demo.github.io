@@ -5,7 +5,8 @@
       "namespace": "android_app",
       "package_name": "in.shreeswamisamarthmathpradnyapuri.twa",
       "sha256_cert_fingerprints": [
-        "C6:D7:9A:6C:5F:FF:05:B7:BB:38:A2:F1:65:94:CC:D4:17:D8:68:DE:5F:14:42:A7:78:B1:6F:9A:6B:4F:01:09"
+        "C6:D7:9A:6C:5F:FF:05:B7:BB:38:A2:F1:65:94:CC:D4:17:D8:68:DE:5F:14:42:A7:78:B1:6F:9A:6B:4F:01:09",
+        "E1:F8:61:09:96:EC:D3:46:79:C2:9A:74:91:7A:91:D4:A5:A5:40:6C:DD:59:F8:C1:9A:D5:CD:5B:85:8C:CB:B4"
       ]
     }
   }
